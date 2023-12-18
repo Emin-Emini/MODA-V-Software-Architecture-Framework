@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9773C575-0799-48B2-A1C2-802F69C0DB49"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDEA5F61-6DC6-4F7B-9658-455561349BE2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MODAV UIKit/UserViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "didFetchedSuccessfully(users:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BDEA5F61-6DC6-4F7B-9658-455561349BE2 - d24155a5a7d8388d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MODAV_UIKit.UserViewController.didFetchedSuccessfully(users: Swift.Array&lt;MODAV_UIKit.User&gt;) -&gt; ()"
+                  moduleName = "MODAV UIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminemini/Desktop/Xcode/Personal/MODA-V-Software-Architecture-Framework/Examples/MODAV%20UIKit/MODAV%20UIKit/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "BDEA5F61-6DC6-4F7B-9658-455561349BE2 - 2ab0ee3fbd671ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MODAV_UIKit.User) -&gt; () in MODAV_UIKit.UserViewController.didFetchedSuccessfully(users: Swift.Array&lt;MODAV_UIKit.User&gt;) -&gt; ()"
+                  moduleName = "MODAV UIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminemini/Desktop/Xcode/Personal/MODA-V-Software-Architecture-Framework/Examples/MODAV%20UIKit/MODAV%20UIKit/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "BDEA5F61-6DC6-4F7B-9658-455561349BE2 - d24155a5a7d8386e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MODAV_UIKit.UserViewController.didFetchedSuccessfully(users: Swift.Array&lt;MODAV_UIKit.User&gt;) -&gt; ()"
+                  moduleName = "MODAV UIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminemini/Desktop/Xcode/Personal/MODA-V-Software-Architecture-Framework/Examples/MODAV%20UIKit/MODAV%20UIKit/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "BDEA5F61-6DC6-4F7B-9658-455561349BE2 - 2ab0ee3fbd6714e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MODAV_UIKit.User) -&gt; () in MODAV_UIKit.UserViewController.didFetchedSuccessfully(users: Swift.Array&lt;MODAV_UIKit.User&gt;) -&gt; ()"
+                  moduleName = "MODAV UIKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eminemini/Desktop/Xcode/Personal/MODA-V-Software-Architecture-Framework/Examples/MODAV%20UIKit/MODAV%20UIKit/UserViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

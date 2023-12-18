@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		19CC14FA2B2F7F0700950E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14F92B2F7F0700950E54 /* AppDelegate.swift */; };
 		19CC14FC2B2F7F0700950E54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14FB2B2F7F0700950E54 /* SceneDelegate.swift */; };
-		19CC14FE2B2F7F0700950E54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14FD2B2F7F0700950E54 /* ViewController.swift */; };
+		19CC14FE2B2F7F0700950E54 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14FD2B2F7F0700950E54 /* UserViewController.swift */; };
 		19CC15012B2F7F0700950E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CC14FF2B2F7F0700950E54 /* Main.storyboard */; };
 		19CC15032B2F7F0800950E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CC15022B2F7F0800950E54 /* Assets.xcassets */; };
 		19CC15062B2F7F0800950E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CC15042B2F7F0800950E54 /* LaunchScreen.storyboard */; };
+		19CC150E2B2F878600950E54 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC150D2B2F878600950E54 /* UserModel.swift */; };
+		19CC15102B2F879600950E54 /* UserOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC150F2B2F879600950E54 /* UserOrchestrator.swift */; };
+		19CC15122B2F879E00950E54 /* UserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC15112B2F879E00950E54 /* UserDelegate.swift */; };
+		19CC15142B2F87AA00950E54 /* UserAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC15132B2F87AA00950E54 /* UserAPIRouter.swift */; };
+		19CC15162B2F87B100950E54 /* UserAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC15152B2F87B100950E54 /* UserAPIManager.swift */; };
+		19CC15182B2F87BB00950E54 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC15172B2F87BB00950E54 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19CC14F62B2F7F0700950E54 /* MODAV UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MODAV UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CC14F92B2F7F0700950E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19CC14FB2B2F7F0700950E54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		19CC14FD2B2F7F0700950E54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19CC14FD2B2F7F0700950E54 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		19CC15002B2F7F0700950E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19CC15022B2F7F0800950E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19CC15052B2F7F0800950E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19CC15072B2F7F0800950E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CC150D2B2F878600950E54 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		19CC150F2B2F879600950E54 /* UserOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrchestrator.swift; sourceTree = "<group>"; };
+		19CC15112B2F879E00950E54 /* UserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDelegate.swift; sourceTree = "<group>"; };
+		19CC15132B2F87AA00950E54 /* UserAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIRouter.swift; sourceTree = "<group>"; };
+		19CC15152B2F87B100950E54 /* UserAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIManager.swift; sourceTree = "<group>"; };
+		19CC15172B2F87BB00950E54 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,59 @@
 			children = (
 				19CC14F92B2F7F0700950E54 /* AppDelegate.swift */,
 				19CC14FB2B2F7F0700950E54 /* SceneDelegate.swift */,
-				19CC14FD2B2F7F0700950E54 /* ViewController.swift */,
+				19CC15172B2F87BB00950E54 /* Config.swift */,
+				19CC151D2B3084EF00950E54 /* Model */,
+				19CC151C2B3084E700950E54 /* Orchestrator */,
+				19CC151B2B3084E100950E54 /* Delegate */,
+				19CC151A2B3084D500950E54 /* API (Adapter) */,
+				19CC15192B3084CF00950E54 /* View */,
 				19CC14FF2B2F7F0700950E54 /* Main.storyboard */,
 				19CC15022B2F7F0800950E54 /* Assets.xcassets */,
 				19CC15042B2F7F0800950E54 /* LaunchScreen.storyboard */,
 				19CC15072B2F7F0800950E54 /* Info.plist */,
 			);
 			path = "MODAV UIKit";
+			sourceTree = "<group>";
+		};
+		19CC15192B3084CF00950E54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19CC14FD2B2F7F0700950E54 /* UserViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		19CC151A2B3084D500950E54 /* API (Adapter) */ = {
+			isa = PBXGroup;
+			children = (
+				19CC15132B2F87AA00950E54 /* UserAPIRouter.swift */,
+				19CC15152B2F87B100950E54 /* UserAPIManager.swift */,
+			);
+			path = "API (Adapter)";
+			sourceTree = "<group>";
+		};
+		19CC151B2B3084E100950E54 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				19CC15112B2F879E00950E54 /* UserDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		19CC151C2B3084E700950E54 /* Orchestrator */ = {
+			isa = PBXGroup;
+			children = (
+				19CC150F2B2F879600950E54 /* UserOrchestrator.swift */,
+			);
+			path = Orchestrator;
+			sourceTree = "<group>";
+		};
+		19CC151D2B3084EF00950E54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19CC150D2B2F878600950E54 /* UserModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19CC14FE2B2F7F0700950E54 /* ViewController.swift in Sources */,
+				19CC14FE2B2F7F0700950E54 /* UserViewController.swift in Sources */,
 				19CC14FA2B2F7F0700950E54 /* AppDelegate.swift in Sources */,
+				19CC15182B2F87BB00950E54 /* Config.swift in Sources */,
+				19CC150E2B2F878600950E54 /* UserModel.swift in Sources */,
+				19CC15162B2F87B100950E54 /* UserAPIManager.swift in Sources */,
+				19CC15122B2F879E00950E54 /* UserDelegate.swift in Sources */,
 				19CC14FC2B2F7F0700950E54 /* SceneDelegate.swift in Sources */,
+				19CC15102B2F879600950E54 /* UserOrchestrator.swift in Sources */,
+				19CC15142B2F87AA00950E54 /* UserAPIRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

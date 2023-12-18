@@ -89,8 +89,8 @@
 		19CC14E82B2F7EA000950E54 /* API (Adapter) */ = {
 			isa = PBXGroup;
 			children = (
-				19CC14E22B2F7E7600950E54 /* UserAPIManager.swift */,
 				19CC14E42B2F7E8600950E54 /* UserAPIRouter.swift */,
+				19CC14E22B2F7E7600950E54 /* UserAPIManager.swift */,
 			);
 			path = "API (Adapter)";
 			sourceTree = "<group>";
