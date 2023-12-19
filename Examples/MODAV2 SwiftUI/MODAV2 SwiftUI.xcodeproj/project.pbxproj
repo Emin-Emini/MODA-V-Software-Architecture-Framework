@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E989FA2B321D2800918D8C /* MODAV2_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E989F92B321D2800918D8C /* MODAV2_SwiftUIApp.swift */; };
+		19E989FC2B321D2800918D8C /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E989FB2B321D2800918D8C /* UserView.swift */; };
+		19E989FE2B321D2A00918D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E989FD2B321D2A00918D8C /* Assets.xcassets */; };
+		19E98A012B321D2A00918D8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19E98A002B321D2A00918D8C /* Preview Assets.xcassets */; };
+		19E98A082B321D6E00918D8C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A072B321D6E00918D8C /* Config.swift */; };
+		19E98A0A2B321D7D00918D8C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A092B321D7D00918D8C /* UserModel.swift */; };
+		19E98A0C2B321D8D00918D8C /* UserOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A0B2B321D8D00918D8C /* UserOrchestrator.swift */; };
+		19E98A0E2B321D9C00918D8C /* UserOrchestratorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A0D2B321D9C00918D8C /* UserOrchestratorDelegate.swift */; };
+		19E98A102B321DAA00918D8C /* UserViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A0F2B321DAA00918D8C /* UserViewDelegate.swift */; };
+		19E98A122B321DBB00918D8C /* UserAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A112B321DBB00918D8C /* UserAPIRouter.swift */; };
+		19E98A142B321DC900918D8C /* UserAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A132B321DC900918D8C /* UserAPIManager.swift */; };
+		19E98A162B321DFC00918D8C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A152B321DFC00918D8C /* UserViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19E989F62B321D2800918D8C /* MODAV2 SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MODAV2 SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E989F92B321D2800918D8C /* MODAV2_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MODAV2_SwiftUIApp.swift; sourceTree = "<group>"; };
+		19E989FB2B321D2800918D8C /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		19E989FD2B321D2A00918D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19E98A002B321D2A00918D8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19E98A072B321D6E00918D8C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		19E98A092B321D7D00918D8C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		19E98A0B2B321D8D00918D8C /* UserOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrchestrator.swift; sourceTree = "<group>"; };
+		19E98A0D2B321D9C00918D8C /* UserOrchestratorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrchestratorDelegate.swift; sourceTree = "<group>"; };
+		19E98A0F2B321DAA00918D8C /* UserViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewDelegate.swift; sourceTree = "<group>"; };
+		19E98A112B321DBB00918D8C /* UserAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIRouter.swift; sourceTree = "<group>"; };
+		19E98A132B321DC900918D8C /* UserAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIManager.swift; sourceTree = "<group>"; };
+		19E98A152B321DFC00918D8C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E989F32B321D2800918D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E989ED2B321D2800918D8C = {
+			isa = PBXGroup;
+			children = (
+				19E989F82B321D2800918D8C /* MODAV2 SwiftUI */,
+				19E989F72B321D2800918D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19E989F72B321D2800918D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19E989F62B321D2800918D8C /* MODAV2 SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19E989F82B321D2800918D8C /* MODAV2 SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				19E989F92B321D2800918D8C /* MODAV2_SwiftUIApp.swift */,
+				19E98A072B321D6E00918D8C /* Config.swift */,
+				19E98A092B321D7D00918D8C /* UserModel.swift */,
+				19E98A0B2B321D8D00918D8C /* UserOrchestrator.swift */,
+				19E98A0D2B321D9C00918D8C /* UserOrchestratorDelegate.swift */,
+				19E98A0F2B321DAA00918D8C /* UserViewDelegate.swift */,
+				19E98A112B321DBB00918D8C /* UserAPIRouter.swift */,
+				19E98A132B321DC900918D8C /* UserAPIManager.swift */,
+				19E989FB2B321D2800918D8C /* UserView.swift */,
+				19E98A152B321DFC00918D8C /* UserViewModel.swift */,
+				19E989FD2B321D2A00918D8C /* Assets.xcassets */,
+				19E989FF2B321D2A00918D8C /* Preview Content */,
+			);
+			path = "MODAV2 SwiftUI";
+			sourceTree = "<group>";
+		};
+		19E989FF2B321D2A00918D8C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19E98A002B321D2A00918D8C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19E989F52B321D2800918D8C /* MODAV2 SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E98A042B321D2A00918D8C /* Build configuration list for PBXNativeTarget "MODAV2 SwiftUI" */;
+			buildPhases = (
+				19E989F22B321D2800918D8C /* Sources */,
+				19E989F32B321D2800918D8C /* Frameworks */,
+				19E989F42B321D2800918D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MODAV2 SwiftUI";
+			productName = "MODAV2 SwiftUI";
+			productReference = 19E989F62B321D2800918D8C /* MODAV2 SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19E989EE2B321D2800918D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					19E989F52B321D2800918D8C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 19E989F12B321D2800918D8C /* Build configuration list for PBXProject "MODAV2 SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19E989ED2B321D2800918D8C;
+			productRefGroup = 19E989F72B321D2800918D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E989F52B321D2800918D8C /* MODAV2 SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19E989F42B321D2800918D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E98A012B321D2A00918D8C /* Preview Assets.xcassets in Resources */,
+				19E989FE2B321D2A00918D8C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19E989F22B321D2800918D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E98A122B321DBB00918D8C /* UserAPIRouter.swift in Sources */,
+				19E989FC2B321D2800918D8C /* UserView.swift in Sources */,
+				19E98A0E2B321D9C00918D8C /* UserOrchestratorDelegate.swift in Sources */,
+				19E98A162B321DFC00918D8C /* UserViewModel.swift in Sources */,
+				19E98A102B321DAA00918D8C /* UserViewDelegate.swift in Sources */,
+				19E989FA2B321D2800918D8C /* MODAV2_SwiftUIApp.swift in Sources */,
+				19E98A0A2B321D7D00918D8C /* UserModel.swift in Sources */,
+				19E98A142B321DC900918D8C /* UserAPIManager.swift in Sources */,
+				19E98A082B321D6E00918D8C /* Config.swift in Sources */,
+				19E98A0C2B321D8D00918D8C /* UserOrchestrator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19E98A022B321D2A00918D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19E98A032B321D2A00918D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19E98A052B321D2A00918D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MODAV2 SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 392NZUSY8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eminemini.MODAV2-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19E98A062B321D2A00918D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MODAV2 SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 392NZUSY8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eminemini.MODAV2-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E989F12B321D2800918D8C /* Build configuration list for PBXProject "MODAV2 SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E98A022B321D2A00918D8C /* Debug */,
+				19E98A032B321D2A00918D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E98A042B321D2A00918D8C /* Build configuration list for PBXNativeTarget "MODAV2 SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E98A052B321D2A00918D8C /* Debug */,
+				19E98A062B321D2A00918D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19E989EE2B321D2800918D8C /* Project object */;
+}
