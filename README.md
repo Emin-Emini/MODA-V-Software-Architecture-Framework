@@ -242,3 +242,12 @@ In summary, MODA-V offers a balanced approach, aiming to provide clear separatio
 - **Separation of Concerns in Adapters:** Handle all networking and data persistence operations in Adapters. This includes API calls, database interactions, and any other external data operations.
 - **Abstraction of External Interactions:** Adapters should abstract the complexity of networking and data storage, providing a clean and simple interface for the Orchestrator to interact with.
 - **Decoupling from Core Logic:** By isolating these operations in Adapters, the core application logic in the Orchestrator remains unaffected by changes in data sources or networking protocols, enhancing the application's adaptability and maintainability.
+
+
+# About me
+
+Hi there! I'm Emin, the architect of the MODA-V framework. As an experienced iOS Developer and Mobile Team Lead, I've always been passionate about pushing the boundaries in software architecture. Crafting MODA-V has been a journey of combining my years of experience in iOS development with my enthusiasm for building scalable and adaptable mobile applications. I love connecting with fellow developers and enthusiasts in the tech world, so feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/eminemini/) for any professional discussions or collaborations. Also, I often share my insights and experiences in software development on [Medium](https://eminemini.medium.com), and I'd be thrilled if you checked out my articles there.
+
+Let's connect and explore the exciting world of technology together! 🚀
+
+[www.eminemini.com](https://eminemini.com)
