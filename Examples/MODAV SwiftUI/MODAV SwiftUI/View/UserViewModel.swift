@@ -1,5 +1,5 @@
 //
-//  UserModelView.swift
+//  UserViewModel.swift
 //  MODAV SwiftUI
 //
 //  Created by Emin Emini on 17.12.2023..
@@ -14,7 +14,7 @@ class UserViewModel: ObservableObject {
 
     private var orchestrator: UserOrchestrator
 
-    init(orchestrator: UserOrchestrator = UserOrchestrator()) {
+    init(orchestrator: UserOrchestrator) {
         self.orchestrator = orchestrator
         self.orchestrator.delegate = self
     }

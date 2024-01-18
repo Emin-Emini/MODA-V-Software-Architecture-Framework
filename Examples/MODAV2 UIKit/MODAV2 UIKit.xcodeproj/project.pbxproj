@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1953DAB12B59998D00EC927A /* UserAPIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953DAB02B59998D00EC927A /* UserAPIDelegate.swift */; };
 		1966675A2B31D0BF0075F86E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196667592B31D0BF0075F86E /* AppDelegate.swift */; };
 		1966675C2B31D0BF0075F86E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1966675B2B31D0BF0075F86E /* SceneDelegate.swift */; };
 		1966675E2B31D0BF0075F86E /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1966675D2B31D0BF0075F86E /* UserViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1953DAB02B59998D00EC927A /* UserAPIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIDelegate.swift; sourceTree = "<group>"; };
 		196667562B31D0BF0075F86E /* MODAV2 UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MODAV2 UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		196667592B31D0BF0075F86E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1966675B2B31D0BF0075F86E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				19E989EB2B32076800918D8C /* UserOrchestratorDelegate.swift */,
 				19E989DF2B3206D000918D8C /* UserViewDelegate.swift */,
+				1953DAB02B59998D00EC927A /* UserAPIDelegate.swift */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				19E989DC2B3206BE00918D8C /* UserModel.swift in Sources */,
 				19E989DE2B3206C700918D8C /* UserOrchestrator.swift in Sources */,
 				19E989E42B3206E200918D8C /* UserAPIManager.swift in Sources */,
+				1953DAB12B59998D00EC927A /* UserAPIDelegate.swift in Sources */,
 				19E989E02B3206D000918D8C /* UserViewDelegate.swift in Sources */,
 				1966675C2B31D0BF0075F86E /* SceneDelegate.swift in Sources */,
 			);

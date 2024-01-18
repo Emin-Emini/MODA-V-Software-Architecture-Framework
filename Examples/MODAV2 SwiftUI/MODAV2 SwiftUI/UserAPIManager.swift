@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Adapter (APIManager)
-class UserAPIManager {
+class UserAPIManager: UserAPIDelegate {
     static let shared = UserAPIManager()
 
     func getUsers(count: Int, completion: @escaping (Result<[User], Error>) -> Void) {

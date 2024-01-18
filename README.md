@@ -1,8 +1,10 @@
+![MODA-V](images/MODA-V.png)
+
 # MODA-V Software Architecture Framework
 **MODA-V _(Model-Orchestrator-Delegate-Adapter-View)_** is a Software Architecture Framework mainly focused for Mobile Development. It emphasizes modularity, separation of concerns, testability, and maintainability.
 
 
-## Introducing MODA-V: Revolutionizing Software Architecture
+## Introducing MODA-V: Modern Software Architecture
 
 Welcome to MODA-V (Model-Orchestrator-Delegate-Adapter-View), a groundbreaking architectural framework designed to transform the landscape of software development. If you're a developer seeking an architecture that harmoniously combines simplicity, modularity, and scalability, MODA-V is your gateway to a new era of coding efficiency.
 
@@ -242,6 +244,88 @@ In summary, MODA-V offers a balanced approach, aiming to provide clear separatio
 - **Separation of Concerns in Adapters:** Handle all networking and data persistence operations in Adapters. This includes API calls, database interactions, and any other external data operations.
 - **Abstraction of External Interactions:** Adapters should abstract the complexity of networking and data storage, providing a clean and simple interface for the Orchestrator to interact with.
 - **Decoupling from Core Logic:** By isolating these operations in Adapters, the core application logic in the Orchestrator remains unaffected by changes in data sources or networking protocols, enhancing the application's adaptability and maintainability.
+
+## Expanded Model Responsibilities:
+
+In the simple code examples we used, the Model had no other responsibility besides being as a blueprint and to decode data from the API. But you can expand the responsibility of Model based on your preferences. Expanding the role of the Model in the MODA-V architecture to include more responsibilities can be both beneficial and risky, depending on how it's implemented and the context of your application.
+
+Some the cases might be:
+
+- **Including Business Logic:** You could move some business logic into the Model. This would mean the Model not only represents data but also knows how to manipulate and process that data according to business rules.
+
+```
+class User {
+    var name: String
+    var email: String
+    var subscriptionDate: Date
+    var subscriptionType: String
+
+    init(name: String, email: String, subscriptionDate: Date, subscriptionType: String) {
+        self.name = name
+        self.email = email
+        self.subscriptionDate = subscriptionDate
+        self.subscriptionType = subscriptionType
+    }
+
+    func isPremiumMember() -> Bool {
+        // Business logic to determine if user is a premium member
+        let premiumTypes = ["Gold", "Platinum"]
+        return premiumTypes.contains(subscriptionType)
+    }
+}
+
+```
+
+- **Validation:** The Model could be responsible for validating itself. For instance, a User model might validate that the email address format is correct or that the age is within a reasonable range.
+```
+class User {
+    var name: String
+    var email: String
+    var age: Int
+
+    init(name: String, email: String, age: Int) {
+        self.name = name
+        self.email = email
+        self.age = age
+    }
+
+    func isValidEmail() -> Bool {
+        // Simple regex for email validation
+        let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+        let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
+        return emailTest.evaluate(with: email)
+    }
+
+    func isValidAge() -> Bool {
+        // Assuming valid age is between 18 and 100
+        return age >= 18 && age <= 100
+    }
+}
+
+```
+
+### Pros of Expanding Model Responsibilities:
+
+- **Encapsulation:** Keeping data and related business logic together in the Model can enhance encapsulation, making it easier to understand and manage related functionalities.
+- **Reduced Orchestrator Complexity:** By offloading some logic to the Model, you can simplify the Orchestrator, making it more focused on coordinating interactions rather than processing data.
+- **Reusability:** A Model with more responsibilities can be reused across different parts of the application, potentially reducing code duplication.
+
+### Cons of Expanding Model Responsibilities:
+
+- **Risk of Overloading the Model:** If too much logic is added, the Model can become bloated, leading to the same issues seen with fat Controllers in MVC.
+- **Increased Model Complexity:** More responsibilities make the Model more complex, which can lead to difficulties in maintenance and understanding the code.
+- **Testing Challenges:** A Model with extensive business logic might require more comprehensive testing, making the testing process more complicated.
+- **Potential Violation of Single Responsibility Principle:** One of the SOLID principles of object-oriented design is that a class should have only one reason to change. Expanding the Model's responsibilities might violate this principle.
+
+## Conclusion: Understanding Responsibility Dynamics in MODA-V
+
+In the realm of MODA-V, responsibility is a fluid concept that adapts to the needs and focus of the application. Traditionally, the Orchestrator is often seen shouldering the greatest responsibility, acting as the linchpin that coordinates the application's core logic and flow. Its pivotal role in decision-making positions it centrally in the architecture, orchestrating the delicate balance between the Model, View, Adapter, and Delegate.
+
+However, the unique strength of MODA-V lies in its flexibility - the ability to shift the weight of responsibility as the application demands. In scenarios where user interaction and interface are paramount, such as in web apps or websites, the View can ascend to a more dominant role. It becomes not just a display mechanism but a hub of rich user experience and interaction, closely intertwined with the Orchestrator's logic.
+
+Simultaneously, the roles of the Adapter, Delegate, and Model adjust in concert, supporting the View's enhanced responsibilities while maintaining the architecture's inherent balance and separation of concerns. The Adapter might take on more dynamic data handling, the Delegate could become crucial in managing intricate data flows, and the Model may evolve to cater more directly to the View's needs.
+
+Ultimately, MODA-V's true power is its adaptability. Whether in a traditional application where the Orchestrator reigns supreme or in a View-centric web app where the interface takes the lead, each component of MODA-V plays a vital role. Together, they ensure the application's functionality, stability, and user experience are harmonious and effective, demonstrating the architecture's versatility and robustness in diverse development landscapes.
 
 
 # About me

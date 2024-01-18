@@ -14,7 +14,9 @@ class UserViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let userOrchestrator = UserOrchestrator()
+        let apiManager = UserAPIManager.shared
+        let userOrchestrator = UserOrchestrator(adapter: apiManager)
+        //let userOrchestrator = UserOrchestrator()
         self.orchestrator = userOrchestrator
         userOrchestrator.viewDelegate = self
     }

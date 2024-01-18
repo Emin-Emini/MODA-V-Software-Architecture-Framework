@@ -19,6 +19,7 @@
 		19E98A122B321DBB00918D8C /* UserAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A112B321DBB00918D8C /* UserAPIRouter.swift */; };
 		19E98A142B321DC900918D8C /* UserAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A132B321DC900918D8C /* UserAPIManager.swift */; };
 		19E98A162B321DFC00918D8C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E98A152B321DFC00918D8C /* UserViewModel.swift */; };
+		19EB7B532B599B3300FF05D7 /* UserAPIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB7B522B599B3300FF05D7 /* UserAPIDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		19E98A112B321DBB00918D8C /* UserAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIRouter.swift; sourceTree = "<group>"; };
 		19E98A132B321DC900918D8C /* UserAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIManager.swift; sourceTree = "<group>"; };
 		19E98A152B321DFC00918D8C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		19EB7B522B599B3300FF05D7 /* UserAPIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,10 +75,11 @@
 				19E98A0B2B321D8D00918D8C /* UserOrchestrator.swift */,
 				19E98A0D2B321D9C00918D8C /* UserOrchestratorDelegate.swift */,
 				19E98A0F2B321DAA00918D8C /* UserViewDelegate.swift */,
+				19EB7B522B599B3300FF05D7 /* UserAPIDelegate.swift */,
 				19E98A112B321DBB00918D8C /* UserAPIRouter.swift */,
 				19E98A132B321DC900918D8C /* UserAPIManager.swift */,
-				19E989FB2B321D2800918D8C /* UserView.swift */,
 				19E98A152B321DFC00918D8C /* UserViewModel.swift */,
+				19E989FB2B321D2800918D8C /* UserView.swift */,
 				19E989FD2B321D2A00918D8C /* Assets.xcassets */,
 				19E989FF2B321D2A00918D8C /* Preview Content */,
 			);
@@ -169,6 +172,7 @@
 				19E989FA2B321D2800918D8C /* MODAV2_SwiftUIApp.swift in Sources */,
 				19E98A0A2B321D7D00918D8C /* UserModel.swift in Sources */,
 				19E98A142B321DC900918D8C /* UserAPIManager.swift in Sources */,
+				19EB7B532B599B3300FF05D7 /* UserAPIDelegate.swift in Sources */,
 				19E98A082B321D6E00918D8C /* Config.swift in Sources */,
 				19E98A0C2B321D8D00918D8C /* UserOrchestrator.swift in Sources */,
 			);

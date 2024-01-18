@@ -10,7 +10,11 @@ import Foundation
 // MARK: - Orchestrator
 class UserOrchestrator: UserOrchestratorDelegate {
     weak var viewDelegate: UserViewDelegate?
-    var adapter: UserAPIManager?
+    var adapter: UserAPIDelegate
+    
+    init(adapter: UserAPIDelegate) {
+        self.adapter = adapter
+    }
     
     func getUsers(count: Int) {
         UserAPIManager.shared.getUsers(count: count) { result in

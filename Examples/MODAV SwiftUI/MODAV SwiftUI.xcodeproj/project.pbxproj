@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1953DAAF2B59969F00EC927A /* UserAPIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1953DAAE2B59969F00EC927A /* UserAPIDelegate.swift */; };
 		19CC14CD2B2F7DD700950E54 /* MODAV_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14CC2B2F7DD700950E54 /* MODAV_SwiftUIApp.swift */; };
 		19CC14CF2B2F7DD700950E54 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14CE2B2F7DD700950E54 /* UserView.swift */; };
 		19CC14D12B2F7DD800950E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CC14D02B2F7DD800950E54 /* Assets.xcassets */; };
 		19CC14D42B2F7DD800950E54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CC14D32B2F7DD800950E54 /* Preview Assets.xcassets */; };
-		19CC14DB2B2F7E1200950E54 /* UserModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14DA2B2F7E1200950E54 /* UserModelView.swift */; };
+		19CC14DB2B2F7E1200950E54 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14DA2B2F7E1200950E54 /* UserViewModel.swift */; };
 		19CC14DD2B2F7E3200950E54 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14DC2B2F7E3200950E54 /* UserModel.swift */; };
 		19CC14DF2B2F7E4200950E54 /* UserOrchestrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14DE2B2F7E4200950E54 /* UserOrchestrator.swift */; };
 		19CC14E12B2F7E5E00950E54 /* UserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC14E02B2F7E5E00950E54 /* UserDelegate.swift */; };
@@ -21,12 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1953DAAE2B59969F00EC927A /* UserAPIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIDelegate.swift; sourceTree = "<group>"; };
 		19CC14C92B2F7DD700950E54 /* MODAV SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MODAV SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CC14CC2B2F7DD700950E54 /* MODAV_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MODAV_SwiftUIApp.swift; sourceTree = "<group>"; };
 		19CC14CE2B2F7DD700950E54 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		19CC14D02B2F7DD800950E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19CC14D32B2F7DD800950E54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		19CC14DA2B2F7E1200950E54 /* UserModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModelView.swift; sourceTree = "<group>"; };
+		19CC14DA2B2F7E1200950E54 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		19CC14DC2B2F7E3200950E54 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		19CC14DE2B2F7E4200950E54 /* UserOrchestrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrchestrator.swift; sourceTree = "<group>"; };
 		19CC14E02B2F7E5E00950E54 /* UserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				19CC14E02B2F7E5E00950E54 /* UserDelegate.swift */,
+				1953DAAE2B59969F00EC927A /* UserAPIDelegate.swift */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -122,8 +125,8 @@
 		19CC14EC2B2F7ECC00950E54 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				19CC14DA2B2F7E1200950E54 /* UserViewModel.swift */,
 				19CC14CE2B2F7DD700950E54 /* UserView.swift */,
-				19CC14DA2B2F7E1200950E54 /* UserModelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -199,9 +202,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				19CC14E52B2F7E8600950E54 /* UserAPIRouter.swift in Sources */,
-				19CC14DB2B2F7E1200950E54 /* UserModelView.swift in Sources */,
+				19CC14DB2B2F7E1200950E54 /* UserViewModel.swift in Sources */,
 				19CC14E72B2F7E9600950E54 /* Config.swift in Sources */,
 				19CC14CF2B2F7DD700950E54 /* UserView.swift in Sources */,
+				1953DAAF2B59969F00EC927A /* UserAPIDelegate.swift in Sources */,
 				19CC14E32B2F7E7600950E54 /* UserAPIManager.swift in Sources */,
 				19CC14DD2B2F7E3200950E54 /* UserModel.swift in Sources */,
 				19CC14E12B2F7E5E00950E54 /* UserDelegate.swift in Sources */,

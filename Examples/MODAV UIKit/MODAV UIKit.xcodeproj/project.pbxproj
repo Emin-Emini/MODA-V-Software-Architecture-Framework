@@ -19,6 +19,7 @@
 		19CC15142B2F87AA00950E54 /* UserAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC15132B2F87AA00950E54 /* UserAPIRouter.swift */; };
 		19CC15162B2F87B100950E54 /* UserAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC15152B2F87B100950E54 /* UserAPIManager.swift */; };
 		19CC15182B2F87BB00950E54 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC15172B2F87BB00950E54 /* Config.swift */; };
+		19EE88B22B4FE5BA0066A65C /* UserAPIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE88B12B4FE5BA0066A65C /* UserAPIDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		19CC15132B2F87AA00950E54 /* UserAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIRouter.swift; sourceTree = "<group>"; };
 		19CC15152B2F87B100950E54 /* UserAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIManager.swift; sourceTree = "<group>"; };
 		19CC15172B2F87BB00950E54 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		19EE88B12B4FE5BA0066A65C /* UserAPIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPIDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				19CC15112B2F879E00950E54 /* UserDelegate.swift */,
+				19EE88B12B4FE5BA0066A65C /* UserAPIDelegate.swift */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				19CC14FA2B2F7F0700950E54 /* AppDelegate.swift in Sources */,
 				19CC15182B2F87BB00950E54 /* Config.swift in Sources */,
 				19CC150E2B2F878600950E54 /* UserModel.swift in Sources */,
+				19EE88B22B4FE5BA0066A65C /* UserAPIDelegate.swift in Sources */,
 				19CC15162B2F87B100950E54 /* UserAPIManager.swift in Sources */,
 				19CC15122B2F879E00950E54 /* UserDelegate.swift in Sources */,
 				19CC14FC2B2F7F0700950E54 /* SceneDelegate.swift in Sources */,

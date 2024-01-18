@@ -12,10 +12,10 @@ class UserViewModel: ObservableObject, UserOrchestratorDelegate {
     @Published var users: [User] = []
     @Published var errorMessage: String?
     
-    private var orchestrator: UserOrchestratorDelegate
-    
-    init(orchestrator: UserOrchestratorDelegate = UserOrchestrator()) {
-        self.orchestrator = orchestrator
+    private var orchestrator: UserOrchestrator
+
+    init(orchestrator: UserOrchestratorDelegate) {
+        self.orchestrator = orchestrator as! UserOrchestrator
         (self.orchestrator as? UserOrchestrator)?.delegate = self
     }
     

@@ -8,7 +8,11 @@
 import SwiftUI
 
 struct UserView: View {
-    @ObservedObject var viewModel = UserViewModel()
+    @ObservedObject var viewModel: UserViewModel
+    
+    init(viewModel: UserViewModel = UserViewModel(orchestrator: UserOrchestrator(adapter: UserAPIManager.shared))) {
+        self.viewModel = viewModel
+    }
 
     var body: some View {
         NavigationView {
